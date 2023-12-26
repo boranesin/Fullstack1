@@ -1,0 +1,195 @@
+(base) Borans-MacBook-Air:Github_Code_Library booranesin$ 
+  (base) Borans-MacBook-Air:Github_Code_Library booranesin$ ls -l
+
+
+total 24
+-rw-r--r--@ 1 booranesin  staff  11264 Nov 23 20:08 R_Ch1.R
+
+
+(base) Borans-MacBook-Air:Github_Code_Library booranesin$ cd ..
+(base) Borans-MacBook-Air:Github booranesin$ ls -l
+
+
+total 0
+drwxr-xr-x@ 4 booranesin  staff  128 Nov 23 20:11 Github_Code_Library
+drwxr-xr-x@ 4 booranesin  staff  128 Nov 23 19:08 desktop-tutorial
+
+(base) Borans-MacBook-Air:Github booranesin$ mkdir new
+(base) Borans-MacBook-Air:Github booranesin$ cd new
+(base) Borans-MacBook-Air:new booranesin$ git clone git@github.com:boranesin/Github_Code_Library.git
+
+Cloning into 'Github_Code_Library'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+(base) Borans-MacBook-Air:new booranesin$ ls -la
+
+total 0
+drwxr-xr-x@ 3 booranesin  staff   96 Nov 23 20:14 .
+drwxr-xr-x@ 6 booranesin  staff  192 Nov 23 20:13 ..
+drwxr-xr-x@ 4 booranesin  staff  128 Nov 23 20:14 Github_Code_Library
+
+(base) Borans-MacBook-Air:new booranesin$ cd Github_Code_Library/
+  (base) Borans-MacBook-Air:Github_Code_Library booranesin$ ls -la
+
+total 24
+drwxr-xr-x@  4 booranesin  staff   128 Nov 23 20:14 .
+drwxr-xr-x@  3 booranesin  staff    96 Nov 23 20:14 ..
+drwxr-xr-x@ 13 booranesin  staff   416 Nov 23 20:14 .git
+-rw-r--r--   1 booranesin  staff  9819 Nov 23 20:14 R_Ch1.R
+
+(base) Borans-MacBook-Air:Github_Code_Library booranesin$ cd .git
+(base) Borans-MacBook-Air:.git booranesin$ ls -la
+
+total 40
+drwxr-xr-x@ 13 booranesin  staff  416 Nov 23 20:14 .
+drwxr-xr-x@  4 booranesin  staff  128 Nov 23 20:14 ..
+-rw-r--r--   1 booranesin  staff   21 Nov 23 20:14 HEAD
+drwxr-xr-x@  2 booranesin  staff   64 Nov 23 20:14 branches
+-rw-r--r--   1 booranesin  staff  314 Nov 23 20:14 config
+-rw-r--r--   1 booranesin  staff   73 Nov 23 20:14 description
+drwxr-xr-x@ 12 booranesin  staff  384 Nov 23 20:14 hooks
+-rw-r--r--   1 booranesin  staff  137 Nov 23 20:14 index
+drwxr-xr-x@  3 booranesin  staff   96 Nov 23 20:14 info
+drwxr-xr-x@  4 booranesin  staff  128 Nov 23 20:14 logs
+drwxr-xr-x@  4 booranesin  staff  128 Nov 23 20:14 objects
+-rw-r--r--   1 booranesin  staff  112 Nov 23 20:14 packed-refs
+drwxr-xr-x@  5 booranesin  staff  160 Nov 23 20:14 refs
+
+
+(base) Borans-MacBook-Air:.git booranesin$ cat config 
+
+[core]
+repositoryformatversion = 0
+filemode = true
+bare = false
+logallrefupdates = true
+ignorecase = true
+precomposeunicode = true
+[remote "origin"]
+url = git@github.com:boranesin/Github_Code_Library.git
+fetch = +refs/heads/*:refs/remotes/origin/*
+  [branch "main"]
+remote = origin
+merge = refs/heads/main
+
+(base) Borans-MacBook-Air:.git booranesin$ cd çç
+-bash: cd: çç: No such file or directory
+
+(base) Borans-MacBook-Air:.git booranesin$ cd ..
+(base) Borans-MacBook-Air:Github_Code_Library booranesin$ cd ..
+(base) Borans-MacBook-Air:new booranesin$ ls -l
+
+total 0
+drwxr-xr-x@ 4 booranesin  staff  128 Nov 23 20:14 Github_Code_Library
+
+(base) Borans-MacBook-Air:new booranesin$ cd Github_Code_Library/
+  (base) Borans-MacBook-Air:Github_Code_Library booranesin$ ls -l
+total 24
+-rw-r--r--  1 booranesin  staff  9819 Nov 23 20:14 R_Ch1.R
+
+(base) Borans-MacBook-Air:Github_Code_Library booranesin$ pwd
+/Users/booranesin/Documents/Github/new/Github_Code_Library
+(base) Borans-MacBook-Air:Github_Code_Library booranesin$ cd ../../../
+  (base) Borans-MacBook-Air:Documents booranesin$ ls -la
+
+
+total 40
+drwx------@ 10 booranesin  staff   320 Nov 23 20:14 .
+drwxr-xr-x+ 63 booranesin  staff  2016 Nov 17 03:00 ..
+-rw-r--r--@  1 booranesin  staff  6148 Nov  7 18:47 .DS_Store
+-rw-r--r--   1 booranesin  staff     0 Jul 17  2017 .localized
+-rw-r--r--@  1 booranesin  staff  8770 Jan 20  2019 Boran Esin CAMLIK - CV.docx
+drwxr-xr-x@  7 booranesin  staff   224 May 13  2020 Digital Editions
+drwxr-xr-x@  6 booranesin  staff   192 Nov 23 20:14 GitHub
+drwxr-xr-x@  2 booranesin  staff    64 May 28 09:55 Zoom
+-rw-r--r--@  1 booranesin  staff     0 Dec  4  2019 first python.py
+drwxr-xr-x@ 18 booranesin  staff   576 Oct 31 16:36 harvard datacamp
+
+
+(base) Borans-MacBook-Air:Documents booranesin$ pwd
+/Users/booranesin/Documents
+(base) Borans-MacBook-Air:Documents booranesin$ cd GitHub/
+  (base) Borans-MacBook-Air:GitHub booranesin$ ls -la 
+
+
+total 16
+drwxr-xr-x@  6 booranesin  staff   192 Nov 23 20:14 .
+drwx------@ 10 booranesin  staff   320 Nov 23 20:14 ..
+-rw-r--r--@  1 booranesin  staff  6148 Nov 23 19:09 .DS_Store
+drwxr-xr-x@  4 booranesin  staff   128 Nov 23 20:11 Github_Code_Library
+drwxr-xr-x@  4 booranesin  staff   128 Nov 23 19:08 desktop-tutorial
+drwxr-xr-x@  3 booranesin  staff    96 Nov 23 20:14 new
+
+
+(base) Borans-MacBook-Air:GitHub booranesin$ cd Github_Code_Library/
+  (base) Borans-MacBook-Air:Github_Code_Library booranesin$ ls -la 
+
+
+total 24
+drwxr-xr-x@  4 booranesin  staff    128 Nov 23 20:11 .
+drwxr-xr-x@  6 booranesin  staff    192 Nov 23 20:14 ..
+drwxr-xr-x@ 14 booranesin  staff    448 Nov 23 20:11 .git
+-rw-r--r--@  1 booranesin  staff  11264 Nov 23 20:08 R_Ch1.R
+
+
+(base) Borans-MacBook-Air:Github_Code_Library booranesin$ cd git
+-bash: cd: git: No such file or directory
+
+
+(base) Borans-MacBook-Air:Github_Code_Library booranesin$ ls -la 
+total 24
+drwxr-xr-x@  4 booranesin  staff    128 Nov 23 20:11 .
+drwxr-xr-x@  6 booranesin  staff    192 Nov 23 20:14 ..
+drwxr-xr-x@ 14 booranesin  staff    448 Nov 23 20:11 .git
+-rw-r--r--@  1 booranesin  staff  11264 Nov 23 20:08 R_Ch1.R
+
+(base) Borans-MacBook-Air:Github_Code_Library booranesin$ cd .git/
+  (base) Borans-MacBook-Air:.git booranesin$ ls -l
+total 48
+-rw-r--r--   1 booranesin  staff   31 Nov 23 20:11 COMMIT_EDITMSG
+-rw-r--r--   1 booranesin  staff  108 Nov 23 19:47 FETCH_HEAD
+-rw-r--r--   1 booranesin  staff   21 Nov 23 19:08 HEAD
+drwxr-xr-x@  2 booranesin  staff   64 Nov 23 19:08 branches
+-rw-r--r--   1 booranesin  staff  342 Nov 23 19:08 config
+-rw-r--r--   1 booranesin  staff   73 Nov 23 19:08 description
+drwxr-xr-x@ 15 booranesin  staff  480 Nov 23 19:08 hooks
+-rw-r--r--   1 booranesin  staff  137 Nov 23 20:11 index
+drwxr-xr-x@  3 booranesin  staff   96 Nov 23 19:08 info
+drwxr-xr-x@  4 booranesin  staff  128 Nov 23 20:12 logs
+drwxr-xr-x@ 10 booranesin  staff  320 Nov 23 20:12 objects
+drwxr-xr-x@  5 booranesin  staff  160 Nov 23 19:15 refs
+
+
+(base) Borans-MacBook-Air:.git booranesin$ cat config 
+[core]
+repositoryformatversion = 0
+filemode = true
+bare = false
+logallrefupdates = true
+ignorecase = true
+precomposeunicode = true
+[submodule]
+active = .
+[remote "origin"]
+url = https://github.com/boranesin/Github_Code_Library.git
+fetch = +refs/heads/*:refs/remotes/origin/*
+  [branch "main"]
+remote = origin
+merge = refs/heads/main
+
+
+(base) Borans-MacBook-Air:.git booranesin$ vim config 
+(base) Borans-MacBook-Air:.git booranesin$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.01 KiB | 516.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:boranesin/Github_Code_Library.git
+dc2bfda..3c6a6eb  main -> main
+
